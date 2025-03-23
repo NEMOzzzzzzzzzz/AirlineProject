@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:silver;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transform: translateY(80px);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: silver;
+} 
+
+label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+input {
+    margin-bottom: 12px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    
+  }
+  
+  header img {
+    width: 100px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 0px 20px;
+    display: inline-block;
+  }
+  
+  ul li a {
+    transition: all 0.5s ease 0s;
+  }
+  
+  ul li a:hover {
+    color: #AC3B61;
+  }
+  header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10
+  px 10px;
+  
+  position: absolute;
+  top:2px;
+  left: 10px;
+ 
+}
+nav{
+    transform: translateX(500px);
+}
+a{
+    text-decoration: none;
+
+color: #123C69;}
+
+header img {
+  width: 100px;300px
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 0px 20px;
+  display: inline-block;
+}
+
+ul li a {
+  transition: all 0.5s ease 0s;
+}
+
+ul li a:hover {
+  color: #AC3B61;
+}
+
+  

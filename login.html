@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login.css">
+  <title>Login</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <h1>Forza Airlines</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="login-form">
+      <h2>Login to Your Account</h2>
+      <form id="loginForm" onsubmit="return validateLogin()">
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter username" required>
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required>
+        </div>
+        <button type="submit">Login</button>
+        <p>Don't have an account? <a href="Register.html">Register here</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Forza Airlines. All rights reserved.</p>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+
+</html>
